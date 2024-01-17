@@ -1,0 +1,4 @@
+id_company_size,company_size,company_size_description,company_size_comment
+1,L,Large,>250 employees
+2,M,Medium,50 - 249 employees
+3,S,Smaill,<= 49 employees
