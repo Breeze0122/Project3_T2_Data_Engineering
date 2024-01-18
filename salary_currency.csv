@@ -1,4 +1,4 @@
-id_currency,currency,currency_description
+﻿id_currency,salary_currency,currency_description
 1,USD,US Dollar
 2,EUR,Euro
 3,GBP,Pounds
@@ -14,7 +14,7 @@ id_currency,currency,currency_description
 13,JPY,Yen
 14,ZAR,South African Rand
 15,HKD,Hong Kong Dollar
-16,SGD,Singapour D�lar
+16,SGD,Singapour Dólar
 17,ILS,Sequel
 18,THB,Baht
 19,HUF,Forint
