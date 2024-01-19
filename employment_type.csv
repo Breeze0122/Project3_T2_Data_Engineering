@@ -1,6 +1,5 @@
-﻿id_employment_type,abbreviation,description,,,
-1,CT,Contract,,,
-2,FL,Freelance,,,
-3,FT,Full-time,,,
-4,PT,Part-time,,,
-,,,,,
+﻿id_employment_type,abbreviation,description
+1,CT,Contract
+2,FL,Freelance
+3,FT,Full-time
+4,PT,Part-time
