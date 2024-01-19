@@ -77,5 +77,6 @@ OVERVIEW OF THE PROYECT AND ITS PURPOSE
 - Queremos enseñar como paises 1er munidstas nos llevan mucha ventaja a los 3er mundistas en tema de salarios.
 - La necesidad que existe en las empresas por tener un Data Engineer , data scientist, Data Analyst, Data Architect, ML Engineer.
 - Enseñar cuantas PYMES tienen empleados en el entorno de la Data 
-  
+
+  ![Alt text](image.png)
 
