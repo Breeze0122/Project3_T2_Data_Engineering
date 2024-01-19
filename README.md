@@ -5,13 +5,15 @@ Project 3 related to Data Engineering
 Data Engineering Track
 
 For this track, your group will follow data engineering processes. Here are the specific requirements:
+
 1. Data must be stored in a SQL or NoSQL database (PostgreSQL, MongoDB, SQLite, etc) and the database must include at least two tables (SQL) or collections (NoSQL).
      Define:  PGAdmin4
      Database: Data Salaries. found on https://www.kaggle.com/datasets/willianoliveiragibin/data-jobs-salaries/
-2.The database must contain at least 100 records.
+   
+2. The database must contain at least 100 records.
     ok
    
-3.Your project must use ETL workflows to ingest data into the database (i.e. the data should not be exactly the same as the original source; it should have been transformed in some way).
+3. Your project must use ETL workflows to ingest data into the database (i.e. the data should not be exactly the same as the original source; it should have been transformed in some way).
     Download in CSV
     Work with ODBschema
     
@@ -19,10 +21,17 @@ For this track, your group will follow data engineering processes. Here are the 
   Pandas DataFrame. - Selected, the results of the queries should be exported  and use the Pandas DataFrame
   Flask API with JSON output
 
-5. Your project must use one additional library not covered in class related to data engineering. Consider libraries for data streaming, cloud, data pipelines, or data validation.
+     4.a. - Get the avg salary according the experience level.
+     4.b. - Get the top 3 countries and review the minimum wage and max wage and compare them.
+     4.c. - Show the avg wage of the top 3
+     4.d. - Show the % of the remote ratio through the years.
+     4.e. - Using leaflet show in a map how the countries avg salaries are and by layers show the job title
+     4.f. - Get the size of the company and how many employees are.
+
+6. Your project must use one additional library not covered in class related to data engineering. Consider libraries for data streaming, cloud, data pipelines, or data validation.
    01/15 - research additional libraries using python.
    
-6. Your GitHub repo must include a README.md with an outline of the project including:
+7. Your GitHub repo must include a README.md with an outline of the project including:
 An overview of the project and its purpose
     
 
@@ -56,5 +65,12 @@ BEFORE: provide a menu of options for the user to narrow the range of data being
 AFTER: Once the data is stored in the database, add user capability to extract filtered data from the database prior to loading it in a Pandas DataFrame or a JSON output from a Flask API.
 
 
-For this project, you can focus your efforts within a specific industry, as detailed in the following examples.
+OVERVIEW OF THE PROYECT AND ITS PURPOSE
+
+- Como la tecnologia ha aumentado en los años.
+- Estamos comparando salarios y el impacto que se tienen estos trabajos y como han aumentado.
+- Queremos enseñar como paises 1er munidstas nos llevan mucha ventaja a los 3er mundistas en tema de salarios.
+- La necesidad que existe en las empresas por tener un Data Engineer , data scientist, Data Analyst, Data Architect, ML Engineer.
+- Enseñar cuantas PYMES tienen empleados en el entorno de la Data 
+  
 
