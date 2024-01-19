@@ -21,12 +21,17 @@ For this track, your group will follow data engineering processes. Here are the 
   Pandas DataFrame. - Selected, the results of the queries should be exported  and use the Pandas DataFrame
   Flask API with JSON output
 
-     4.a. - Get the avg salary according the experience level.
-     4.b. - Get the top 3 countries and review the minimum wage and max wage and compare them.
-     4.c. - Show the avg wage of the top 3
-     4.d. - Show the % of the remote ratio through the years.
-     4.e. - Using leaflet show in a map how the countries avg salaries are and by layers show the job title
-     4.f. - Get the size of the company and how many employees are.
+     4.a. - Get the avg salary according the experience level. SANTIAGO
+   
+     4.b. - Get the top 3 countries and review the minimum wage and max wage and compare them. SOFIA
+   
+     4.c. - Show the avg wage of the top 3. SANTIAGO
+   
+     4.d. - Show the % of the remote ratio through the years. ANA BRISA
+   
+     4.e. - Using leaflet show in a map how the countries avg salaries are and by layers show the job title. SOFIA
+   
+     4.f. - Get the size of the company and how many employees are. ANA BRISA
 
 6. Your project must use one additional library not covered in class related to data engineering. Consider libraries for data streaming, cloud, data pipelines, or data validation.
    01/15 - research additional libraries using python.
