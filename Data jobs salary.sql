@@ -2,13 +2,13 @@
 -- Link to schema: https://app.quickdatabasediagrams.com/#/d/yqQNhh
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
-
+DROP TABLE "Employee_salary"
 CREATE TABLE "Employee_salary" (
     "id_employee" int   NOT NULL,
     "job_title" varchar(200)   NOT NULL,
-    "salary" money   NOT NULL,
+    "salary" decimal   NOT NULL,
     "id_currency" int   NOT NULL,
-    "salary_in_usd" money   NOT NULL,
+    "salary_in_usd" decimal   NOT NULL,
     "id_work_year" int   NOT NULL,
     "id_experience_level" int   NOT NULL,
     "id_remote_ratio" int   NOT NULL,
@@ -35,7 +35,7 @@ CREATE TABLE "Experience_level" (
         "id_experience_level"
      )
 );
-
+DROP TABLE "Company_Data"
 CREATE TABLE "Company_Data" (
     "id_company" int   NOT NULL,
     "id_employment_type" int   NOT NULL,
@@ -63,7 +63,7 @@ CREATE TABLE "remote_ratio" (
         "id_remote_ratio"
      )
 );
-
+DROP TABLE "company_size"
 CREATE TABLE "company_size" (
     "id_company_size" int   NOT NULL,
     "company_size" varchar(5)   NOT NULL,
@@ -83,6 +83,7 @@ CREATE TABLE "salary_currency" (
      )
 );
 
+DROP TABLE "company_location_description"
 CREATE TABLE "company_location_description" (
     "id_company_location" int   NOT NULL,
     "location_abbv" varchar(5)   NOT NULL,
@@ -115,4 +116,6 @@ REFERENCES "company_location_description" ("id_company_location");
 
 ALTER TABLE "Company_Data" ADD CONSTRAINT "fk_Company_Data_id_company_size" FOREIGN KEY("id_company_size")
 REFERENCES "company_size" ("id_company_size");
+
+
 
