@@ -21,7 +21,7 @@ For this track, your group will follow data engineering processes. Here are the 
   Pandas DataFrame. - Selected, the results of the queries should be exported  and use the Pandas DataFrame
   Flask API with JSON output
 
-     4.a. - Get the avg salary according the experience level. SANTIAGO
+     4.a. - Get the avg salary according the job title. SANTIAGO
    
      4.b. - Get the top 3 countries and review the minimum wage and max wage and compare them. SOFIA
    
