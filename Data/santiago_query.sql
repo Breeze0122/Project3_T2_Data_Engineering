@@ -21,5 +21,5 @@ ON cd.id_company_location = cld.id_company_location
 GROUP BY cld.location_name	
 )
 ORDER BY 2 desc	
-LIMIT 3
+LIMIT 10
 ;
