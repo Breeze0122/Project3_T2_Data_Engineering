@@ -1,7 +1,7 @@
 // Create a map object.
 let myMap = L.map("map", {
-    center: [37.09, -95.71],
-    zoom: 3
+    center: [37.09, -45.71],
+    zoom: 2.5
 });
 
 // Add a tile layer.
@@ -10,8 +10,8 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(myMap);
 
 // Define a markerSize() function that gives each city a different radius based on its median salary.
-function markerSize(Median_salary) {
-    return Math.sqrt(Median_salary) * 900;
+function markerSize(proportion) {
+    return Math.sqrt((proportion) * 100000000);
 }
 
 // Loop through the cities array and create one marker for each city object.
@@ -19,11 +19,14 @@ for (let i = 0; i < cities.length; i++) {
     const city = cities[i];
     const marker = L.circle(city.location, {
         fillOpacity: 0.75,
-        color: "white",
+        color: "blue",
         fillColor: "purple",
-        radius: markerSize(city.Median_salary)
+        radius: markerSize(city.proportion)
     });
 
+
+
+    
     // Bind a popup to the marker with city information.
     marker.bindPopup(`
         <h1>${city.name}</h1> 
