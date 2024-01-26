@@ -11,7 +11,7 @@ Show the average salarie of the top 25 countrys.
 Show the % of the ratio through the years (2020-2024).
 Show in a map the countries avg salaries and job titles.
 Show the size of the company and how many employees have.
-<img width="930" alt="image" src="https://github.com/Breeze0122/Project3_T2_Data_Engineering/assets/144565552/94421da9-ea53-456e-9c93-c504db92f179">
+
 
 The project used SEABORN library, using this tool we could provide differents visualitation of interest data exposed on the presentation.
 
